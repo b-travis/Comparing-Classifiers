@@ -20,3 +20,4 @@ When time allows, here are some next steps to improve this analysis:
 - Improve the Grid Search for the best hyperparameters and models. Figure out why the SVM models (other than rbf) take so long to fit and whether there is a way to speed that up. Perhaps with feature selection so that there are fewer features.
 - Feature Selection as a way to (1) Identify the most important feature predictors of "churn", and (2) create a simplified version of the model with only the most important features. The below code shows the most important 10 features identified by the best Logistic Regression model.
 
+See full analysis here: https://github.com/b-travis/Comparing-Classifiers/blob/main/Comparing_Classifiers_in_Banking_Marketing.ipynb
